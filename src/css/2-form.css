@@ -1,0 +1,60 @@
+body {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 1.5;
+letter-spacing: 0.04em;
+
+list-style-type: none;
+
+background-color: #F5F5F5;
+color: #2e2f42;
+}
+
+.feedback-form {
+  max-width: 408px;
+  padding: 24px;
+  margin-left: 24px;
+  margin-top: 24px;
+
+  background-color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 8px;
+}
+
+.feedback-form button {
+font: inherit;
+
+padding: 8px 16px;
+margin-top: 8px;
+
+background: #4e75ff;
+border: #fff;
+border-radius: 8px;
+
+font-weight: 500;
+cursor: pointer;
+
+color: #fff;
+
+}
+
+input,
+textarea {
+font: inherit;
+padding: 8px;
+border: 1px solid #808080;
+border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
